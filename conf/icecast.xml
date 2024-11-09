@@ -39,9 +39,9 @@
 
     <authentication>
         <!-- Sources log in with username 'source' -->
-        <source-password>__PASSWORD__</source-password>
+        <source-password>__PASSWORD_SOURCE__</source-password>
         <!-- Relays log in with username 'relay' -->
-        <relay-password>__PASSWORD__</relay-password>
+        <relay-password>__PASSWORD_RELAY__</relay-password>
 
         <!-- Admin logs in with the username given below -->
         <admin-user>__ADMIN__</admin-user>
