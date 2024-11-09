@@ -5,6 +5,8 @@ source /usr/share/yunohost/helpers
 
 
 ynh_app_setting_set --key=password --value="$password"
+ynh_app_setting_set --key=password_source --value="$password_source"
+ynh_app_setting_set --key=password_relay --value="$password_relay"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
